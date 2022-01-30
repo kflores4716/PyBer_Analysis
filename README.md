@@ -1,6 +1,6 @@
 # PyBer_Analysis
 ## Overview of the Analysis
-This new analysis was created in order to determine rider, driver, and fare data based on city type. The first step was to combine the data frames for the ride data and city data. This new data frame was then filtered down, setting the date as the index, and eventually showed a data table separated by city type that included every ride on every date between 1/1/2019 and 4/28/2019. After this additional filtering was completed, a line chart was created in order to provide a clearer visual representation of the number of rides for each type of city. The charts created helped visualize the successes and disparities between city types and will help inform the CEO to address any issues the company might have.
+This analysis was created in order to determine rider, driver, and fare data based on city type. The first step was to combine the data frames for the ride data and city data. This new data frame was then filtered down, setting the date as the index, and eventually showed a data table separated by city type that included every ride on every date between 1/1/2019 and 4/28/2019. After this additional filtering was completed, a line chart was created in order to provide a clearer visual representation of the number of rides for each type of city. The charts created helped visualize the successes and disparities between city types and will help inform the CEO to address any issues the company might have.
 
 - To perform the analysis, I used Pandas and Matplotlib in the Jupyter Notebook application.
 
@@ -21,7 +21,7 @@ After combining the data and filtering it down to the desired specifications, th
 - The total fares from each city type again follows this order: urban has the most, then suburban, then rural.
 - Interestingly, the order reverses for the average fare per ride and average fare per driver. Rural has the highest averages, followed by suburban and then urban.
 
-Regarding the graph of weekly fare data, it mainly just visualizes what the table tells us about total fares. The total fare revenue is highest for urban cities, second highest for suburban cities, and lowest for urban cities. It is nice to see how the total fares fluctuate week to week, however, this really will only help with future projections and not much else. 
+Regarding the graph of weekly fare data, it mainly just visualizes what the table tells us about total fares. The total fare revenue is highest for urban cities, second highest for suburban cities, and lowest for urban cities. It is nice to see how the total fares fluctuate week to week, however, this likely will only help with future projections and not much else. 
 
 ### Interpreting the Results
 These results do not really come as a surprise. Considering how supply and demand works, it makes sense that there are more drivers in urban cities than there are in rural cities. In urban cities there are more people, and more people means there are going to be more rides requested. Also, if there are more rides being requested, that means there is a need for more drivers. As a result, having the most drivers and rides means that urban cities are going to have the highest fare total, followed by suburban and then rural. 
